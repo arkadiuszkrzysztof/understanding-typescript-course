@@ -11,5 +11,13 @@
         "sourceType": "module"
     },
     "rules": {
-    }
+
+    },
+    "ignorePatterns": [
+        "node_modules",
+        "dist"
+    ],
+    "include": [
+        "src/**/*.ts"
+    ]
 }
